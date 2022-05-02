@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+    <style>
+      #navbar{
+        border: solid goldenrod;
+        
+        padding: 10px;
+      }
+      #navbar>input{
+        width: 70%;
+        height: 40px;
+        margin-left: 9%;
+        border-radius: 20px;
+      }
+      #box{
+        /* border: solid red; */
+        display: flex;
+        justify-content: space-between;
+        /* height: 540p auto; */
+      }
+      #sidebar{
+        /* border: solid blue; */
+        background-color: rgb(252, 224, 238);
+        width: 20%;height: 400px;
+        text-align: center;
+      }
+      #box>.news{
+        /* border: solid green; */
+        /* background-color: green; */
+        justify-content: none;
+        /* line-height: 1px; */
+
+        width: 78%;
+      }
+      #sidebar>p{
+        border: 1px solid grey;
+        color: goldenrod;
+        width: 70%;
+
+
+
+      }
+      #results{
+        margin: auto;
+      
+        display: flex;
+        justify-content: space-evenly;
+        height: 9%;
+        /* width: 100%; */
+        /* padding: 10px; */
+        /* box-sizing: border-box; */
+        /* border: brown solid; */
+      }
+      /* #results>div{
+        display: flex;
+        border: solid brown;
+      } */
+      #img{
+        /* margin: auto; */
+        /* border: solid; */
+        padding: 4px;
+        height: 60%;
+        width: 20%;
+      }
+      #p{
+        height: 60%;
+        /* border: solid; */
+        padding: 4px;
+        width: 60%;
+        
+
+      }
+      img{
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id=navbar>
+      <!-- <input type="text" id="search"> -->
+    </div>
+    <div id="box">
+      <div id="sidebar">
+        <h1>countries</h1>
+        <p id="in">India</p>
+        <p id="ch">China</p>
+        <p id="uk">UK</p>
+        <p id="nz">New Zealand</p>
+      </div>
+      <div class="news">
+
+      </div>
+
+    </div>
+    
+
+
+
+    <!-- Give Navbar with id "navbar"  -->
+    <!-- Navbar will have input with id search_input and a link to home page i.e. index.html -->
+    <!-- Sidebar will have id "sidebar"  -->
+    <!-- Give link to top headlines of countries in sidebar with id as their country codes 
+    india :- in
+    china :- ch
+    usa :- us
+    uk : uk
+    Newzeland :- nz -->
+
+    <!-- Append results inside div with id "results"  -->
+    <!-- News divs will have class "news"  -->
+  </body>
+</html>
+<script src="./scripts/index.js" type="module"></script>
